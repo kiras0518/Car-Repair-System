@@ -13,14 +13,14 @@
     </head>
 <body>
     <div class=container>
-        <form class=form-signin role=form>
+        <form class=form-signin role=form onsubmit="return false">
             <h2 class=form-signin-heading>Please sign in</h2>
-            <label for=inputEmail class=sr-only>Email address</label> 
-            <input type=email id=inputEmail class=form-control placeholder="Email address" required autofocus> 
-            <label for=inputPassword class=sr-only>Password</label> 
-            <input type=password id=inputPassword class=form-control placeholder=Password required><div class=checkbox><label> 
-            <input type=checkbox value=remember-me> Remember me </label></div>
-            <button class="btn btn-lg btn-primary btn-block" type=submit>Sign in</button>
+            <label for=inputUser class=sr-only>輸入帳號</label> 
+            <input type="text" name="id" id="user_id" class=form-control placeholder="Email address" required autofocus> 
+            <label for=inputPassword class=sr-only>輸入密碼</label> 
+            <input type=password id=Password class=form-control placeholder=Password required> 
+            <input type="hidden" name="op" id="login">
+            <button class="btn btn-lg btn-primary btn-block" type=submit>登入</button>
         </form>
     </div>
 </body>

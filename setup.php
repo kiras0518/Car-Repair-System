@@ -15,11 +15,11 @@ $page_menu = array('首頁' => "index.php" ,
                     );
 
 $user_Sta = array('ok'=>"啟用",'no'=>"禁用");
-$customer_User = "user";
-$customer_car = "car";
-$customer_item = "item";
-$customer_Log = "log";
-//$customer_Content = "Content";
+$tbl_User = "user";
+$tbl_car = "car";
+$tbl_item = "item";
+$tbl_Log = "log";
+$tbl_Content = "Content";
 
 //動態導覽列
 $top_nav=top_nav($page_menu);
